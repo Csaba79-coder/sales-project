@@ -1,8 +1,8 @@
 export class SalesPerson {
-    constructor(private firstName: string,
-        private lastName: string, 
-        private email: string,
-        private salesVolume: number) {
+    constructor(public firstName: string,
+        public lastName: string,
+        public email: string,
+        public salesVolume: number) {
 
     }
 }
