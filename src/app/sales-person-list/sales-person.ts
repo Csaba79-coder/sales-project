@@ -1,5 +1,3 @@
-import { NgModuleRef } from "@angular/core";
-
 export class SalesPerson {
     constructor(private firstName: string,
         private lastName: string, 
